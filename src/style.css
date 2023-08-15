@@ -6,7 +6,7 @@
 .Devision{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    margin-bottom: 120px;
+    margin: 10px;
 }
 
 .icons{
@@ -76,6 +76,7 @@ a:hover:before{
     justify-content: center;
     gap: 100px;
     margin-bottom: 120px;
+    margin-top: 120px;
 }
 
 .TextSpace{
@@ -106,7 +107,7 @@ a:hover:before{
 
 .img{
     height: 300px;
-    width: 250px;
+    width: 245px;
     border-radius: 20px;
     transition: transform 250ms ease-in-out;
     pointer-events: none;
@@ -114,7 +115,7 @@ a:hover:before{
 
 .Trigger{
     height: 300px;
-    width: 250px;
+    width: 240px;
     background:rgb(10, 107, 49);
     border-radius: 20px;
 }
@@ -123,9 +124,21 @@ a:hover:before{
     transform: translate(-15px, 15px);
 }
 
+/*puts everything clean in center no matter wich screen size you would have at that time*/
+
+.App{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.Devide2{
+    margin-left:7.5px;
+    height: 2px;
+    width: 98.4%;
+    background-color: gray;
+}
+
 /* About Me */
-
-
 
 /* Skills */
 
