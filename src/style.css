@@ -2,11 +2,16 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 1em;
+}
+
 /* Section Devider */
 .Devision{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    margin: 10px;
+    margin: 20px;
 }
 
 .icons{
