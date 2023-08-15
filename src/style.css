@@ -75,8 +75,7 @@ a:hover:before{
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-bottom: 120px;
-    margin-top: 120px;
+    margin: 160px 0px 160px 0px;
 }
 
 .TextSpace{
@@ -136,11 +135,57 @@ a:hover:before{
     height: 2px;
     width: 98.4%;
     background-color: gray;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 /* About Me */
+.AboutText{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 750px;
+    font-size: 30px;
+}
 
 /* Skills */
+
+.AnotherTxt{
+    font-size: 50px;
+    text-align: center;
+}
+
+.CenterSkills{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.SkillsIcons{
+    margin: 50px 0px 100px 0px;
+}
+
+.SkillFlex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.SkillImage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px;
+    width: 60px;
+    height: 5px;
+    transition: transform .2s;
+}
+.SkillImage:hover{
+    cursor:pointer;
+
+    transform:scale(1.5);
+}
+
+.SkillTxt{
+    margin-top: 10px;
+}
 
 /* Projects */
 
