@@ -2,4 +2,10 @@
 //to instantly update page
 import './style.css';
 
-console.log('test');
+//TypeWriter
+var typed = new Typed('#element', {
+    strings: ['Full-Stack developer'],
+    typeSpeed: 120,
+    backSpeed: 80,
+    loop: true
+});
