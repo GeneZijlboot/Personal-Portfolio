@@ -1,11 +1,9 @@
-//npx webpack --watch
-//to instantly update page
+//import stylesheet
 import './style.css';
 
-//TypeWriter
-var typed = new Typed('#element', {
-    strings: ['Full-Stack developer'],
-    typeSpeed: 120,
-    backSpeed: 80,
-    loop: true
-});
+//import all the js files
+import TyperWriter from "../src/TypeWriter"
+
+TyperWriter();
+
+//npx webpack --watch
