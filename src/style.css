@@ -45,7 +45,7 @@ html{
 
 /* Hover Effect for HyperLinks */
 
-a {
+.HyperLink {
     padding-top: 35px;
     position: relative;
     font-size: 30px;
@@ -55,7 +55,7 @@ a {
     height: 40px;
 }
 
-a:before {
+.HyperLink:before {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -193,5 +193,63 @@ a:hover:before{
 }
 
 /* Projects */
+
+.ProjectOne{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+}
+
+.ProjectOneFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectName{
+    font-size: 25px;
+}
+.ProjectDescription{
+    border: 2px solid black;
+    height: 80px;
+    width: 300px;
+}
+
+.ProjectButtons{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    font-size: 20px;
+    border: 1px solid rgb(10, 107, 49);
+    background-color: rgb(10, 107, 49);
+    margin-top: 20px;
+    color: snow;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.ProjectImages{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    transition: transform 250ms ease;
+    border-radius: 17px;
+}
+
+.TriggerProjectOne{
+    width: 300px;
+    height: 250px;
+    border: 10px solid rgb(44, 134, 82);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.TriggerProjectOne:hover .ProjectImages{
+    transform: translate(-45px, 15px);
+}
+
 
 /* Contact */
