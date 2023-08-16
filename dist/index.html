@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
     </head>
     <body>
         <!-- Navigation Bar -->
@@ -53,7 +54,7 @@
                 <div id="About" class="About">
                     <span style="font-size:25px;">01. <span style="font-size:40px; font-weight: 550;">About</span></span>
                     <div class="AboutText">
-                        <p>Hi! I'm <span style="color:rgb(10, 107, 49)">Gene, </span><span>a web dev.</span><span style="font-size: 20px; color:rgb(101, 101, 101)"> (as you might have guessed with the title)</span></p>
+                        <p>Hi! I'm <span style="color:rgb(13, 129, 59);">Gene, </span><span>a web dev.</span><span style="font-size: 20px; color:rgb(101, 101, 101)"> (as you might have guessed with the title)</span></p>
                         <br>
                         <div style="font-size:25px;">
                             <span>Growing up, i always</span>
@@ -72,7 +73,7 @@
                 <div id="Skills" class="Skills">
                     <span class="twoSkills" style="font-size:25px;">02. <span style="font-size:40px; font-weight: 550;">Skills</span></span>
                     <div class="SkillsIcons">
-                        <p class="AnotherTxt">Skills & Tools</p>
+                        <p class="AnotherTxt">Skills & <span class="Tools" style="color:rgb(13, 129, 59);">Tools</span></p>
                         <div class="CenterSkills">
                             <div></div>
                             <div class="SkillFlex">
@@ -140,23 +141,55 @@
                 <!-- Projects -->
                 <div id="Projects" class="Projects">
                     <span style="color:white; font-size:25px;">03. <span style="font-size:40px; font-weight: 550;">Projects</span></span>
-                    <br>
-                    <div class="ProjectOne">
-                        <div class="WhiteSpace"></div>
-                        <div class="ProjectOneFlex">
-                            <div class="ProjectReadins">
-                                <p class="ProjectName">Tic-Tac-Toe</p>
-                                <p class="ProjectDescription">Description...</p>
-                                <div class="ProjectButtons">
-                                    <a href="https://genezijlboot.github.io/Project-Tic-Tac-Toe"><button>Live</button></a>
-                                    <a href="https://github.com/GeneZijlboot/Project-Tic-Tac-Toe"><button>Source</button></a>
-                                </div>
-                            </div>
-                            <div class="TriggerProjectOne">
-                                <a href="https://genezijlboot.github.io/Project-Tic-Tac-Toe"><img class="ProjectImages" src="../src/ProjectImages/Tic-Tac-Toe.png"></a>
+                    <div><a href="https://github.com/GeneZijlboot?tab=repositories"><button style="margin-top:30px;width: 180px; height: 50px; border-radius: 25px;">See All Projects</button><a></div>
+                    <div class="MainContainer">
+                        <!-- First Project -->
+                        <div class="ProjectOne">
+                            <div data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-out"><a href="https://genezijlboot.github.io/Project-Tic-Tac-Toe"><img class="ProjectImages" src="../src/ProjectImages/Tic-Tac-Toe.png"></a></div>
+                            <div data-aos="fade-in" data-aos-delay="80" class="ProjectImagesBG"></div>
+                        </div>
+                        <div class="ProjectOneInfo">
+                            <div class="ProjectText"><span>Tic-Tac-Toe</span></div>
+                            <div class="ProjectDescription"><span>Desciption:</span></div>
+                            <div class="ProjectButtons">
+                                <a href="https://genezijlboot.github.io/Project-Tic-Tac-Toe"><button>Live</button></a>
+                                <a href="https://github.com/GeneZijlboot/Project-Tic-Tac-Toe"><button>Source</button></a>
                             </div>
                         </div>
-                        <div class="WhiteSpace"></div>
+                    </div>
+
+                    <!-- Second Project -->
+                    <div style="margin-left:50px;" class="MainContainer">
+                        <!-- First Project -->
+                        <div class="ProjectOne">
+                            <div data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-out"><a href="https://genezijlboot.github.io/Project-Etch-A-Sketch"><img class="ProjectImages" src="../src/ProjectImages/Etch-A-Sketch.png"></a></div>
+                            <div data-aos="fade-in" data-aos-delay="80" class="ProjectImagesBG"></div>
+                        </div>
+                        <div class="ProjectOneInfo">
+                            <div class="ProjectText"><span>Etch-A-Sketch</span></div>
+                            <div class="ProjectDescription"><span>Desciption:</span></div>
+                            <div class="ProjectButtons">
+                                <a href="https://genezijlboot.github.io/Project-Etch-A-Sketch"><button>Live</button></a>
+                                <a href="https://github.com/GeneZijlboot/Project-Etch-A-Sketch"><button>Source</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Project -->
+                    <div style="margin-left:50px;" class="MainContainer">
+                        <!-- First Project -->
+                        <div class="ProjectOne">
+                            <div data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-out"><a href="https://genezijlboot.github.io/Project-Calculator"><img class="ProjectImages" src="../src/ProjectImages/Calculator.png"></a></div>
+                            <div data-aos="fade-in" data-aos-delay="80" class="ProjectImagesBG"></div>
+                        </div>
+                        <div class="ProjectOneInfo">
+                            <div class="ProjectText"><span>Calculator</span></div>
+                            <div class="ProjectDescription"><span>Desciption:</span></div>
+                            <div class="ProjectButtons">
+                                <a href="https://genezijlboot.github.io/Project-Calculator"><button>Live</button></a>
+                                <a href="https://github.com/GeneZijlboot/Project-Calculator"><button>Source</button></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -175,6 +208,10 @@
         </div>
 
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script src="main.js"></script>
     </body>
 </html>

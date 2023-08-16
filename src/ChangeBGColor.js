@@ -5,6 +5,7 @@ export default function ChangeBg(){
     let Devide2 = document.querySelector('.Devide2');
     let AnotherTxt = document.querySelector('.AnotherTxt');
     let twoSkills = document.querySelector('.twoSkills');
+    let Tools = document.querySelector('.Tools');
 
     var scrollValue = window.scrollY;
     console.log(scrollValue);
@@ -22,6 +23,8 @@ export default function ChangeBg(){
 
         AnotherTxt.style="color:white";
         twoSkills.style="color:white";
+        Tools.style="color:rgb(197, 95, 18);";
+        
 
         Devide2.classList.remove('Devide2Dark')
         Devide2.classList.add('Devide2')
@@ -41,6 +44,8 @@ export default function ChangeBg(){
 
         AnotherTxt.style="color:rgb(30, 30, 30)";
         twoSkills.style="color:rgb(30, 30, 30)";
+        Tools.style="color:rgb(13, 129, 59);"
+        
 
         Devide2.classList.add('Devide2Dark')
         Devide2.classList.remove('Devide2')

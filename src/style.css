@@ -28,6 +28,7 @@ html{
 /* Navigation Bar */
 
 .NavBar{
+    opacity: 90%;
     display: flex;
     justify-content: space-evenly;
     background-color: White;
@@ -73,7 +74,7 @@ html{
     bottom: -2px;
     height: 6px;
     width: 0;
-    background-color: rgb(10, 107, 49);
+    background-color: rgb(13, 129, 59);
     border-radius: 50px;
     transition: width 0.2s ease;
 }
@@ -84,7 +85,7 @@ html{
     bottom: -2px;
     height: 6px;
     width: 0;
-    background-color: rgb(29, 27, 27);
+    background-color: rgb(197, 95, 18);
     border-radius: 50px;
     transition: width 0.2s ease;
 }
@@ -129,7 +130,7 @@ a:hover:before{
 
 .TypeWriterContainer, #element{
     font-size: 50px;
-    color: rgb(10, 107, 49);
+    color: rgb(13, 129, 59);
 } 
 
 
@@ -144,8 +145,8 @@ a:hover:before{
 .Trigger{
     height: 300px;
     width: 240px;
-    background:rgb(10, 107, 49);
     border-radius: 20px;
+    background:rgb(13, 129, 59);
 }
 
 .Trigger:hover .img{
@@ -244,27 +245,44 @@ a:hover:before{
 }
 /* Projects */
 
-.ProjectOne{
+.MainContainer{
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 0.5fr 3fr 0.5fr;
-    color:white;
-}
-
-.ProjectOneFlex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.ProjectName{
-    font-size: 40px;
+.ProjectImagesBG{
+    border: 5px dashed rgb(197, 95, 18);
+    width: 260px;
+    height: 220px;
+    margin: 20px;
 }
+
+.ProjectImages{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    transition: transform .2s;
+    border-radius: 7px;
+}
+
+.ProjectImages:hover{
+    transform:scale(1.1);
+}
+
+.ProjectText{
+    font-size: 50px;
+    color: white;
+}
+
 .ProjectDescription{
-    border: 2px solid black;
-    height: 80px;
-    width: 300px;
+    border: 5px dashed rgb(197, 95, 18);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(197, 95, 18);
+    width: 420px;
+    height: 130px;
 }
-
 .ProjectButtons{
     display: flex;
     gap: 20px;
@@ -272,8 +290,8 @@ a:hover:before{
 
 button{
     font-size: 20px;
-    border: 1px solid rgb(10, 107, 49);
-    background-color: rgb(10, 107, 49);
+    border: 1px solid rgb(197, 95, 18);
+    background-color: rgb(197, 95, 18);
     margin-top: 20px;
     color: snow;
     border-radius: 20px;
@@ -282,25 +300,6 @@ button{
     cursor: pointer;
 }
 
-.ProjectImages{
-    position: relative;
-    width: 300px;
-    height: 250px;
-    transition: transform 250ms ease;
-    border-radius: 17px;
-}
-
-.TriggerProjectOne{
-    width: 300px;
-    height: 250px;
-    border: 10px solid rgb(44, 134, 82);
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.TriggerProjectOne:hover .ProjectImages{
-    transform: translate(-45px, 15px);
-}
 
 
 /* Contact */
