@@ -10,7 +10,7 @@ html{
 /* Section Devider */
 .Devision{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 0.7fr 4fr 0.7fr;
     margin: 20px;
 }
 
@@ -28,10 +28,11 @@ html{
 /* Navigation Bar */
 
 .NavBar{
-    opacity: 90%;
+    position: absolute;
     display: flex;
     justify-content: space-evenly;
     background-color: White;
+    opacity: 90%;
 
     position: sticky;
     top: 0.1px;
@@ -251,20 +252,13 @@ a:hover:before{
     justify-content: space-evenly;
 }
 
-.ProjectImagesBG{
-    border: 5px dashed rgb(197, 95, 18);
+.ProjectImages{
     width: 260px;
     height: 220px;
-    margin: 20px;
+    border-radius: 7px;
+    transition: transform .2s;
 }
 
-.ProjectImages{
-    position: absolute;
-    width: 260px;
-    height: 220px;
-    transition: transform .2s;
-    border-radius: 7px;
-}
 
 .ProjectImages:hover{
     transform:scale(1.1);
@@ -300,6 +294,47 @@ button{
     cursor: pointer;
 }
 
-
-
 /* Contact */
+
+.Content{
+    display: flex;
+    margin-top:40px;
+}
+
+.ContactText{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+    width: 600px;
+}
+
+input{
+    margin: 10px;
+    border: 1px solid white;
+    background-color:rgb(30, 30, 30);
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    color: white;
+}
+.Message{
+}
+
+input::placeholder{
+    color:white;
+    opacity: 70%;
+}
+
+input:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+.SendBtn{
+    margin: 10px;
+}
+
+.github{
+    cursor: pointer;
+    margin: 10px;
+}

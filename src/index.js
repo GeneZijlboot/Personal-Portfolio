@@ -7,4 +7,3 @@ import ChangeBg from "../src/ChangeBGColor"
 
 TyperWriter();
 window.addEventListener("scroll", ChangeBg);
-
