@@ -4,7 +4,7 @@
 
 html{
     scroll-behavior: smooth;
-    scroll-padding: 1em;
+    scroll-padding: 135px;
 }
 
 /* Section Devider */
@@ -31,7 +31,9 @@ html{
     display: flex;
     justify-content: space-evenly;
     background-color: White;
-    /*box-shadow: 0px 7px 12px rgba(0,0,0,0.5);*/
+
+    position: sticky;
+    top: 0.1px;
 }
 
 .Title{
@@ -55,6 +57,16 @@ html{
     height: 40px;
 }
 
+.HyperLinkDark {
+    padding-top: 35px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    height: 40px;
+}
+
 .HyperLink:before {
     content: "";
     position: absolute;
@@ -66,13 +78,25 @@ html{
     transition: width 0.2s ease;
 }
 
+.HyperLinkDark:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 0;
+    background-color: rgb(29, 27, 27);
+    border-radius: 50px;
+    transition: width 0.2s ease;
+}
+
 a:hover:before{
     width: 100%;
 }
 
 #InitialsImg{
-    height: 100px;
-    width: 100px;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
 }
 
 /* Home */
@@ -139,7 +163,26 @@ a:hover:before{
     margin-left:7.5px;
     height: 2px;
     width: 98.4%;
-    background-color: gray;
+    background-color: rgb(83, 82, 82);
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+
+.Devide3{
+    margin-left:7.5px;
+    height: 2px;
+    width: 98.4%;
+    background-color: rgb(83, 82, 82);
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.Devide2Dark{
+    margin-left:7.5px;
+    height: 2px;
+    width: 98.4%;
+    background-color: snow;
     margin-top:20px;
     margin-bottom: 20px;
 }
@@ -157,6 +200,7 @@ a:hover:before{
 .AnotherTxt{
     font-size: 50px;
     text-align: center;
+    padding: 20px;
 }
 
 .CenterSkills{
@@ -166,11 +210,14 @@ a:hover:before{
 
 .SkillsIcons{
     margin: 50px 0px 100px 0px;
+
 }
 
 .SkillFlex{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .SkillImage{
@@ -192,12 +239,16 @@ a:hover:before{
     margin-top: 10px;
 }
 
+.emptydiv{
+    height: 100px;
+}
 /* Projects */
 
 .ProjectOne{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 0.5fr 3fr 0.5fr;
+    color:white;
 }
 
 .ProjectOneFlex{
@@ -206,7 +257,7 @@ a:hover:before{
 }
 
 .ProjectName{
-    font-size: 25px;
+    font-size: 40px;
 }
 .ProjectDescription{
     border: 2px solid black;
