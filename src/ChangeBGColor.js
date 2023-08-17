@@ -12,11 +12,7 @@ export default function ChangeBg(){
         document.body.style = "background-color:rgb(30, 30, 30); -webkit-transition: background-color 200ms linear;";
         NavBar.style = "background-color:rgb(30, 30, 30); -webkit-transition: background-color 200ms linear;";
 
-<<<<<<< HEAD
         Title.innerHTML = `<img id="InitialsImg" src="images/Black-White.png">`;
-=======
-        Title.innerHTML = `<img id="InitialsImg" src="/dist/images/Black-White.png">`;
->>>>>>> edcd1d3f39061c870001e0db38769127708c7617
         NavBarLinks.innerHTML = `
         <a class="HyperLinkDark" href="#About"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="30 0 448 512"><style>svg{fill:#ffffff}</style><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>About</a>
         <a class="HyperLinkDark" href="#Skills"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>Skills</a>
@@ -30,11 +26,7 @@ export default function ChangeBg(){
         document.body.style = "background-color: white; -webkit-transition: background-color 200ms linear;"; 
         NavBar.style = "background-color: white; -webkit-transition: background-color 200ms linear;";
 
-<<<<<<< HEAD
         Title.innerHTML = `<img id="InitialsImg" src="images/White-Black.png">`;
-=======
-        Title.innerHTML = `<img id="InitialsImg" src="/dist/images/White-Black.png">`;
->>>>>>> edcd1d3f39061c870001e0db38769127708c7617
         NavBarLinks.innerHTML = `
             <a class="HyperLink" href="#About"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>About</a>
             <a class="HyperLink" href="#Skills"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>Skills</a>
